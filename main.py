@@ -24,4 +24,3 @@ provina
 3
 4
 claude
-claudio
