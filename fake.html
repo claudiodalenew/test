@@ -16,6 +16,16 @@
         h1 { color: #8b4513; }
         li { margin-bottom: 6px; }
         footer { margin-top: 40px; font-size: 0.9em; color: #7a6a5a; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #d9c7b0; padding: 8px; text-align: left; }
+        th { background: #f3e3cc; }
+        blockquote {
+            margin: 12px 0;
+            padding: 8px 16px;
+            border-left: 4px solid #8b4513;
+            background: #fff9f0;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -32,6 +42,22 @@
 
     <h2>Opening hours</h2>
     <p>Every night from 8 pm to 2 am. Closed on full moons.</p>
+
+    <h2>Weekly specials</h2>
+    <table>
+        <tr><th>Night</th><th>Special</th><th>Price</th></tr>
+        <tr><td>Monday</td><td>Galaxy blueberry muffin</td><td>2.80</td></tr>
+        <tr><td>Wednesday</td><td>Nebula raspberry swirl</td><td>3.50</td></tr>
+        <tr><td>Friday</td><td>Shooting star donut</td><td>2.20</td></tr>
+        <tr><td>Saturday</td><td>Supernova cheesecake</td><td>4.50</td></tr>
+    </table>
+
+    <h2>What our customers say</h2>
+    <blockquote>"The only place open when I finish my night shift. The cinnamon rolls are worth it." (Imaginary customer #1)</blockquote>
+    <blockquote>"I came for the croissant and stayed for the view of the stars." (Imaginary customer #2)</blockquote>
+
+    <h2>Contact</h2>
+    <p>Find us at 42 Nowhere Lane, Dreamtown. Look for the glowing moon sign.</p>
 
     <footer>This is a fake page created to practise Git and GitHub.</footer>
 </body>
